@@ -62,8 +62,8 @@ public class Pizza {
         //Extra Toppings Added: 70
         //Paperbag Added: 20
         //Total Price: 470
-        bill = "Base Price Of The Pizza:"+(isVeg?300:400)+"\n"+(CheeseEx?("Extra Cheese Added:"+80+"\n"):"")+(Toppings?("Extra Toppings Added:"+(isVeg?70:120)+"\n"):"")+
-                (TakeAway?("Paperbag Added:"+20+"\n"):"")+"Total Price:"+price;
+        bill = "Base Price Of The Pizza: "+(isVeg?300:400)+"\n"+(CheeseEx?("Extra Cheese Added: "+80+"\n"):"")+(Toppings?("Extra Toppings Added: "+(isVeg?70:120)+"\n"):"")+
+                (TakeAway?("Paperbag Added: "+20+"\n"):"")+"Total Price: "+price+"\n";
 //        System.out.println("Base Price of The Pizza: "+(isVeg?300:400));
 //        if(CheeseEx){
 //            System.out.println("Extra Cheese Added: "+80);
